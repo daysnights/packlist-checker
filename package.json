@@ -1,0 +1,22 @@
+{
+  "name": "packlist-checker",
+  "version": "0.0.1",
+  "description": "Monitors for changes of a packlist, then sends new packlist as json to an api endpoint",
+  "author": "Days days.rizon@gmail.com",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejitsu/browsenpm.org"
+  },
+  "bugs": {
+    "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+  },
+  "dependencies": {
+    "moment": "2.10.6",
+    "request": "2.61.0"
+  },
+  "engine": "node 4.0.0",
+  "license": "MIT"
+  }

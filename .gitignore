@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules
+
+# General
+.DS_Store
+.git
+
+# App specific
+log.txt
+packlist.json
+packlist.txt
+settings.js

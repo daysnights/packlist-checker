@@ -1,19 +1,11 @@
-/*
+// settings.js
 
-Edit variable settings here
+module.exports = {
 
-*/
+  'packList': '',                     // absolute location of your packlist text file
+  'apiKey': '',                       // bots api key
+  'packListJson': 'packlist.json',    // json packlist file name
+  'logFile': 'log.txt',               // log file name
+  'apiEndPoint': ''                   // url of packlist update api endpoint
 
-var packList = '';                     // absolute location of your packlist text file
-var apiKey = '';                       // bots api key
-var packListJson = 'packlist.json';    // json packlist file name
-var logFile = 'log.txt';               // log file name
-var apiEndPoint = '';                  // url of packlist update api endpoint
-
-/* DO NOT EDIT BELOW THIS LINE */
-
-module.exports.packList = packList;
-module.exports.packListJson = packListJson;
-module.exports.logFile = logFile;
-module.exports.apiEndPoint = apiEndPoint;
-module.exports.apiKey = apiKey;
+}
